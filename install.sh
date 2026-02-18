@@ -39,6 +39,9 @@ case "$SHELL" in
   echo 'Appended to ~/.config/fish/conf.d/terminal-villager.fish'
   cat ./script.fish >~/.config/fish/conf.d/terminal-villager.fish
   ;;
+*/nu)
+  echo 'Add the script.nu file manually to your nu config directory'
+  ;;
 *)
   echo "Unknown shell: $SHELL"
   ;;
